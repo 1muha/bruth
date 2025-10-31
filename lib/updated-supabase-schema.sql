@@ -5,6 +5,8 @@
 
 -- Enable required extensions
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+-- Enable text search extension
+CREATE EXTENSION IF NOT EXISTS "pg_trgm";
 
 -- ============================================
 -- USERS TABLE
